@@ -1,0 +1,2 @@
+# Aim
+The aim of local webserver is to host the data for a project. It simply has to store images to their own location, such that the database can be queried automatically for the purpose of training the model.

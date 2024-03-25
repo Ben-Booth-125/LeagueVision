@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convert Image to Data URL</title>
+    <script>
+        window.onload = function() {
+            var directoryPath = 'summaries';
+
+            var links = document.getElementsByTagName('a');
+
+            for (var i = 0; i < links.length; i++) {
+                var link = links[i];
+                var href = link.getAttribute('href');
+
+                if (href.startsWith(directoryPath)) {
+                    console.log(href);
+                }
+            }
+        };
+    </script>
+
